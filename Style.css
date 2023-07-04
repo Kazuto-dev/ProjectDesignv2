@@ -1,5 +1,4 @@
-@media only screen and (max-width: 1980px) {
-  
+
 *{
     padding: 0;
     margin: 0;
@@ -389,9 +388,12 @@ section#main {
     width: 1240px;
     height: 322px;
     flex-shrink: 0;
+    position: absolute;
     border-radius: 20px;
     display: flex;
     background: #003A2C;
+    /* top: 4%; */
+    top: 750%;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
@@ -437,6 +439,7 @@ section#main {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    padding-top: 200px;
 }
 
 .reg a{
@@ -506,4 +509,12 @@ section#main {
     line-height: normal;
 }
 
+
+@media only screen and (min-width: 375px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
 }
